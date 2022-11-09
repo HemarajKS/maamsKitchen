@@ -1,0 +1,36 @@
+.homePageContainer {
+    background-color: rgb(255, 206, 215);
+}
+
+.title {
+    font-weight: bolder;
+    font-size: larger;
+    color: darkblue;
+    text-align: center;
+}
+
+.ingredients {
+    text-align: justify;
+    line-height: 35px;
+}
+
+.ingredientsLabel {
+    color: darkblue;
+    font-weight: 600;
+}
+
+.instructions {
+    text-align: justify;
+    line-height: 35px;
+}
+
+.servings {
+    font-weight: bolder;
+    font-size: larger;
+    color: darkblue;
+}
+
+.cardContainer {
+    border-bottom: 2px solid black;
+    margin: 0 12%;
+}

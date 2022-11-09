@@ -1,0 +1,35 @@
+.heading {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+    font-size: 32px;
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    margin: 0 10%;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+}
+
+.searchField {
+    width: 50%;
+    border-radius: 10px;
+    outline: none;
+    /* border: none; */
+}
+
+.inputField {
+    border-style: outset;
+    width: 300px;
+    height: 30px;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+@media all and (max-width: 700px) {
+    .logo {
+        flex-direction: column;
+    }
+}
